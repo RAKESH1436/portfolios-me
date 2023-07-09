@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry-developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(8, 8, 53);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(11, 8, 37);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: #b8b517;
+            font-size: 1.1rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #729149;
+            height: 1.1px;
+            margin: 5px 8px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+
+
+        }
+
+        .leftSection {
+            font-size: 2.1rem;
+
+        }
+        .leftSection .buttons {
+            padding: 10px 0;
+
+        }
+        .leftSection .btn {
+            padding: 8px;
+            background: #292997;
+            color: #bbcacc;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 12px;
+            cursor: pointer;
+            
+
+        }
+
+
+        .rightSection img {
+            width: 70%;
+
+        }
+
+        .red {
+            color: #db0b0b;
+        }
+
+        .text-gray {
+            color: #8fc42f;
+        }
+
+        #element {
+            color: #f573bf;
+        }
+
+        .secondsection {
+            max-width: 85vw;
+            margin: auto;
+            height: 80vh;
+            padding: 20px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.5rem;
+
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 85vw;
+            height: 2px;
+            margin: 55px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 98px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .imgtop {
+            width: 40px;
+            position: relative;
+            top: -36px;
+            left: -19px;
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 50px;
+            width: 180px;
+            font-size: 15px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            color: gray;
+            width: 230px;
+            font-size: 9px;
+            top: 60px;
+            
+
+
+
+        }
+
+        footer {
+            background-color: #191922;
+            
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 130px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer > div {
+            width: 200px;
+            
+
+        }
+        footer .f-text-right{
+            text-align: center;
+            color: gray;
+            font-size: small;
+            padding:10px 0 ;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rakesh's Portfolio
+            </div>
+            <div class="right">
+
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Service</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+
+            <div class="leftSection">Hii , My Name is <span class="red">Rakesh</span>
+                <div>and i am passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+
+                </div>
+
+
+            </div>
+            <div class="rightSection"><img src="bg.png" alt="">
+            </div>
+
+        </section>
+        <section>
+            <hr>
+            <section class="secondsection">
+                <span class="text-gray">what i have done so far</span>
+                <h1>Work Experience</h1>
+                <div class="box">
+                    <div class="vertical">
+                        <img class="imgtop" src="programmers.png" alt="">
+                        <div class="vertical-text">
+                            HTML developer
+                            <div>(2010-2012)</div>
+                        </div>
+                        <div class="vertical-desc">
+                            Java is a high-level, class-based, 
+                            object-oriented programming language
+                            that is designed to have as few 
+                            implementation dependencies as possible.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="imgtop" src="bg.png" alt="">
+                        <div class="vertical-text">
+                            java developer
+                            <div>(2010-2012)</div>
+                        </div>
+                        <div class="vertical-desc">
+                            Spring Boot makes it easy to create stand-alone, 
+                            production-grade Spring based Applications that 
+                            you can "just run".
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="imgtop" src="spring-logo.png" alt="">
+                        <div class="vertical-text">
+                            spring boot developer
+                            <div>(2010-2012)</div>
+
+                        </div>
+                        <div class="vertical-desc">
+                            The HyperText Markup Language or HTML
+                            is the standard markup language for documents
+                            designed to be displayed in a web browser.                        </div>
+                        </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="f-first">
+                Rakesh developer portfolio
+            </div>
+            <div class="f-second">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Service</li>
+                </ul>
+
+            </div>
+            <div class="f-third">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Service</li>
+                </ul>
+            </div>
+            <div class="f-fourth">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Service</li>
+                </ul>
+
+            </div>
+           
+            </div>
+            <div class="f-text-right">
+                © Copyright www.sanjay.com || All right reserved
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'figma ', 'java developer'],
+            typeSpeed: 60,
+        });
+    </script>
+
+</body>
+
+</html>
